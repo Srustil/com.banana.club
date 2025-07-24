@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-24T22:44:21 IST" name="Suite" finished-at="2025-07-24T22:44:30 IST" duration-ms="9179">
+  <suite started-at="2025-07-24T23:44:57 IST" name="Suite" finished-at="2025-07-24T23:45:09 IST" duration-ms="11623">
     <groups>
     </groups>
-    <test started-at="2025-07-24T22:44:21 IST" name="Test" finished-at="2025-07-24T22:44:30 IST" duration-ms="9179">
+    <test started-at="2025-07-24T23:44:57 IST" name="Test" finished-at="2025-07-24T23:45:09 IST" duration-ms="11623">
       <class name="script.RetailResortWearBookTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:script.RetailResortWearBookTest@7f0d96f2]" started-at="2025-07-24T22:44:26 IST" name="setup" finished-at="2025-07-24T22:44:27 IST" duration-ms="1016" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:script.RetailResortWearBookTest@7f0d96f2]" started-at="2025-07-24T23:45:03 IST" name="setup" finished-at="2025-07-24T23:45:05 IST" duration-ms="1649" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRetailResortWearBook()[pri:0, instance:script.RetailResortWearBookTest@7f0d96f2]" started-at="2025-07-24T22:44:27 IST" name="verifyRetailResortWearBook" finished-at="2025-07-24T22:44:30 IST" duration-ms="2647" status="PASS">
+        <test-method signature="verifyRetailResortWearBook()[pri:0, instance:script.RetailResortWearBookTest@7f0d96f2]" started-at="2025-07-24T23:45:05 IST" name="verifyRetailResortWearBook" finished-at="2025-07-24T23:45:08 IST" duration-ms="3417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRetailResortWearBook -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:script.RetailResortWearBookTest@7f0d96f2]" started-at="2025-07-24T22:44:30 IST" name="tearDown" finished-at="2025-07-24T22:44:30 IST" duration-ms="426" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:script.RetailResortWearBookTest@7f0d96f2]" started-at="2025-07-24T23:45:08 IST" name="tearDown" finished-at="2025-07-24T23:45:09 IST" duration-ms="450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- script.RetailResortWearBookTest -->
       <class name="script.RetailStoreTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:script.RetailStoreTest@2c07545f]" started-at="2025-07-24T22:44:21 IST" name="setup" finished-at="2025-07-24T22:44:23 IST" duration-ms="1779" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:script.RetailStoreTest@2c07545f]" started-at="2025-07-24T23:44:57 IST" name="setup" finished-at="2025-07-24T23:44:59 IST" duration-ms="2498" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,11 +39,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRetailStorePageLoads()[pri:0, instance:script.RetailStoreTest@2c07545f]" started-at="2025-07-24T22:44:23 IST" name="verifyRetailStorePageLoads" finished-at="2025-07-24T22:44:26 IST" duration-ms="2790" status="PASS">
+        <test-method signature="verifyRetailStorePageLoads()[pri:0, instance:script.RetailStoreTest@2c07545f]" started-at="2025-07-24T23:44:59 IST" name="verifyRetailStorePageLoads" finished-at="2025-07-24T23:45:02 IST" duration-ms="2961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRetailStorePageLoads -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:script.RetailStoreTest@2c07545f]" started-at="2025-07-24T22:44:26 IST" name="tearDown" finished-at="2025-07-24T22:44:26 IST" duration-ms="421" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:script.RetailStoreTest@2c07545f]" started-at="2025-07-24T23:45:03 IST" name="tearDown" finished-at="2025-07-24T23:45:03 IST" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
