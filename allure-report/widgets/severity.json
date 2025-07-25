@@ -1,0 +1,1 @@
+[{"uid":"eb21d02ea4611d0e","name":"verifyRetailStorePageLoads","time":{"start":1753423453921,"stop":1753423456316,"duration":2395},"status":"passed","severity":"normal"},{"uid":"353d95a47a896213","name":"verifyRetailResortWearBook","time":{"start":1753423457816,"stop":1753423461133,"duration":3317},"status":"failed","severity":"critical"}]

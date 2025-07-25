@@ -30,4 +30,8 @@ public class RetailResortWearBookPage {
 
         actionsUtil.moveToElementAndClick(button);
     }
+
+
+    //branch1
+
 }
