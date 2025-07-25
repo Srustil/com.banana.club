@@ -1,19 +1,30 @@
 package script;
 
 import base.BaseTest;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Step;
+import io.qameta.allure.Story;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import page.RetailStorePage;
 import utils.ConfigReader;
 
+@Listeners(listeners.TestListener.class)
 public class RetailStoreTest extends BaseTest {
 
 
+	@Epic("Retail Store")
+	@Feature("RetailStorePageLoads")
+	@Story("Page title")
+	@Severity(SeverityLevel.NORMAL)
+	@Step("Open retail store page and verify the page title")
 	@Test
-    @Step("Open retail store page")
     public void verifyRetailStorePageLoads() {
         driver.get(ConfigReader.get("url")); // ✅ uses inherited driver
 
